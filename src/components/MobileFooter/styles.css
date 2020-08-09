@@ -1,0 +1,31 @@
+.mobile-footer {
+  display: flex;
+  overflow: hidden;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.link, .link1 {
+  text-decoration: none;
+  color: black;
+  width: 50vw;
+  height: 11.5vh;
+  font: 600 1.2rem Poppins;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: .1s ease;
+}
+
+.link svg, .link1 svg {
+  margin-right: 15px;
+  max-width: 30px;
+}
+
+.link:hover, .link1:hover {
+  fill: var(--color-background-secondary);
+  color: var(--color-background-secondary);
+}

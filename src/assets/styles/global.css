@@ -1,0 +1,23 @@
+:root {
+  /* Variaveis de cor */
+  --color-background-primary: #FDED7C;
+  --color-background-secondary: #EF9B17;
+  --color-background-terciary: #FFF7CD;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  height: calc(100vh - 11.5vh);
+}

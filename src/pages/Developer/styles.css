@@ -1,0 +1,156 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font: 500 1.15rem Poppins;
+  background-color: var(--color-background-primary);
+  position: relative;
+}
+
+.container-content {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 11.5vh);
+  overflow: hidden auto;
+}
+
+.projects-content-container {
+  margin: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "pa pa pb"
+  "pc pd pd"
+  ;
+  gap: 15px;
+}
+
+.projects-content-container .project {
+  width: auto;
+  height: 14rem;
+  transition: .2s ease;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.projects-content-container .project h1 {
+  border-radius: 10px;
+  font: 600 2rem Archivo;
+  line-height: 14rem;
+  width: 100%;
+  background-color: transparent;
+  color: transparent;
+  height: 100%;
+  transition: .2s ease;
+}
+
+.projects-content-container .project h1:hover {
+  background-color: rgba(255,255,255,.5);
+  color: black;
+}
+
+.projects-content-container .project:hover {
+  transform: scale(1.025);
+}
+
+.projects-content-container .project:nth-child(1) {
+  transform: translateX(-110%);
+
+  background-image: url('../../assets/images/inf22a.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: pa;
+
+  animation: start .5s forwards;
+}
+
+.projects-content-container .project:nth-child(2) {
+  transform: translateX(115%);
+
+  background-image: url('../../assets/images/mcties.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: pb;
+
+  animation: start .5s forwards;
+}
+
+.projects-content-container .project:nth-child(3) {
+  transform: translateX(-115%);
+
+  background-image: url('../../assets/images/covid19.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: pc;
+
+  animation: start .5s forwards;
+}
+
+.projects-content-container .project:nth-child(4) {
+  transform: translateX(110%);
+
+  background-image: url('../../assets/images/icons/iLion-Logo-_Somente_.ico');
+  background-position: center;
+  background-color: rgba(248,248,248,.4);
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-area: pd;
+
+  animation: start .5s forwards;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  align-self: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform .1s ease;
+}
+
+.title:hover {
+  transform: scale(1.02);
+}
+
+.title .photo {
+  border-radius: 10px 0 0 10px;
+  transform: translateX(-130%);
+  height: 7rem;
+  width: 7rem;
+  background-image: url('../../assets/images/dev.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: start .5s forwards;
+}
+
+.title .name {
+  border-radius: 0 10px 10px 0;
+  height: 7rem;
+  width: 17rem;
+  background-color: var(--color-background-secondary);
+  transform: translateX(115%);
+  color: whitesmoke;
+  display: flex;
+  padding: 15px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  animation: start .5s forwards;
+}
+
+@keyframes start {
+  to {
+    transform: translateX(0);
+  }
+}
