@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/promisses-frontend/static/css/main.8d50a352.chunk.css",
+    "main.js": "/promisses-frontend/static/js/main.826e753d.chunk.js",
+    "main.js.map": "/promisses-frontend/static/js/main.826e753d.chunk.js.map",
+    "runtime-main.js": "/promisses-frontend/static/js/runtime-main.af995c23.js",
+    "runtime-main.js.map": "/promisses-frontend/static/js/runtime-main.af995c23.js.map",
+    "static/js/2.37fb5399.chunk.js": "/promisses-frontend/static/js/2.37fb5399.chunk.js",
+    "static/js/2.37fb5399.chunk.js.map": "/promisses-frontend/static/js/2.37fb5399.chunk.js.map",
+    "index.html": "/promisses-frontend/index.html",
+    "precache-manifest.a4f5d0922aae9e16bfbf9143e7146cd4.js": "/promisses-frontend/precache-manifest.a4f5d0922aae9e16bfbf9143e7146cd4.js",
+    "service-worker.js": "/promisses-frontend/service-worker.js",
+    "static/css/main.8d50a352.chunk.css.map": "/promisses-frontend/static/css/main.8d50a352.chunk.css.map",
+    "static/js/2.37fb5399.chunk.js.LICENSE.txt": "/promisses-frontend/static/js/2.37fb5399.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/promisses-frontend/static/media/mcties.a8744874.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af995c23.js",
+    "static/js/2.37fb5399.chunk.js",
+    "static/css/main.8d50a352.chunk.css",
+    "static/js/main.826e753d.chunk.js"
+  ]
+}
